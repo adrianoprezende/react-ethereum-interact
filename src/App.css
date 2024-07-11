@@ -1,0 +1,85 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif; /* Modern font */
+  margin-bottom: 16px; /* Add some space below the header */
+  color: #333; /* Dark gray color for better contrast */
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #007bff; /* Blue background */
+  color: white;             /* White text */
+  border: none;             /* Remove default border */
+  border-radius: 5px;
+  font-weight: bold;         /* Bold font */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: fit-content;
+  margin-left: 38%;
+  margin-right: auto;
+}
+
+.waveButton:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.waveButton:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+
+.transactionHash {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  font-size: 12px;
+}
+
+.loading {
+  height: "80";
+  width: "80";
+  margin-left: 43%;
+}
+
+.inputMessage {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.allWavesBox {
+  background-color: oldlace; 
+  margin-top: 16px;
+  padding: 8px;
+}
